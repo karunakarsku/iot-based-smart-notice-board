@@ -1,5 +1,4 @@
-//Tech Trends
-//Web Controlled Smart Notice Board
+
 
 #include <Wire.h> 
 #include <LiquidCrystal_I2C.h>
@@ -42,7 +41,7 @@ void setup()
   lcd.backlight();
   lcd.clear();
   lcd.setCursor(4,0);
-  lcd.print("Tech Trends ");
+  lcd.print("skucet ece iiot");
 
   
   WiFi.mode(WIFI_STA);
